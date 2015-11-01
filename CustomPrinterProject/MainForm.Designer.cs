@@ -38,9 +38,10 @@
             // cbPrinter
             // 
             this.cbPrinter.FormattingEnabled = true;
-            this.cbPrinter.Location = new System.Drawing.Point(163, 52);
+            this.cbPrinter.ItemHeight = 13;
+            this.cbPrinter.Location = new System.Drawing.Point(118, 55);
             this.cbPrinter.Name = "cbPrinter";
-            this.cbPrinter.Size = new System.Drawing.Size(301, 21);
+            this.cbPrinter.Size = new System.Drawing.Size(353, 21);
             this.cbPrinter.TabIndex = 0;
             // 
             // lblSelectPrinter
@@ -64,7 +65,7 @@
             // 
             // rtbDetails
             // 
-            this.rtbDetails.Location = new System.Drawing.Point(31, 422);
+            this.rtbDetails.Location = new System.Drawing.Point(31, 176);
             this.rtbDetails.Name = "rtbDetails";
             this.rtbDetails.Size = new System.Drawing.Size(657, 325);
             this.rtbDetails.TabIndex = 3;
@@ -84,7 +85,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(947, 759);
+            this.ClientSize = new System.Drawing.Size(701, 530);
             this.Controls.Add(this.btnReadMagData);
             this.Controls.Add(this.rtbDetails);
             this.Controls.Add(this.btnCheckStatus);
