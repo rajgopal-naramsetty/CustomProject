@@ -27,6 +27,7 @@ namespace CustomPrinterProject
             cbPrinter.Items.AddRange(GetPrinters());
             rtbDetails.Text = string.Empty;
             //This is test comment
+            //This is test2
         }
 
         private string[] GetPrinters()
